@@ -2,8 +2,8 @@ import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
 
 class GameScreen extends StatefulWidget {
-  String player1;
-  String player2;
+  final String player1;
+  final String player2;
   GameScreen({required this.player1, required this.player2});
 
   @override
