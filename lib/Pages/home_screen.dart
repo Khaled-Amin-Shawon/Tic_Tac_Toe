@@ -16,6 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 29, 42, 65),
       body: Form(
@@ -23,6 +24,10 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image.asset(
+              'assets/tic_tac_toe.png',
+            ),
+            SizedBox(height: size.height * 0.1),
             Text(
               "Enter Players' Names",
               style: TextStyle(
