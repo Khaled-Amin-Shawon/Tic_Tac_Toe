@@ -102,6 +102,35 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 29, 42, 65),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            SizedBox( height: 70,),
+            SizedBox(
+              height:120,
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Turn : $_currentPlayer"== widget.player1 ? (widget.player1) : widget.player2,
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
