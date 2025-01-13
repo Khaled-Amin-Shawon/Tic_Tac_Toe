@@ -134,7 +134,7 @@ Contributions are welcome! Feel free to submit a pull request or open an issue f
 If you have any questions or feedback, please contact:
 
 - **Email**: mdkhaledaminshawon@gmail.com
-- **GitHub**: [your-username](https://github.com/Khaled-Amin-Shawon)
+- **GitHub**: [Khaled-Amin_shawon](https://github.com/Khaled-Amin-Shawon)
 
 ---
 
